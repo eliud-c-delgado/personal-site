@@ -1,0 +1,34 @@
+* {
+  //border: 1px solid blue;
+}
+
+.widget-about .logo {
+  max-width: 11em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.sidebar {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+
+.sidebar .widget-about .logo {
+  margin: 1.5em auto;
+  padding: 0 0 0 1em;
+}
+
+.portrait {
+  max-width: 7em;
+  margin: 1em auto;
+}
+
+.portrait img {
+  border-radius: 50%;
+}
